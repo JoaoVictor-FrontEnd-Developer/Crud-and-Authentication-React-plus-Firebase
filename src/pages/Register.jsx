@@ -179,7 +179,7 @@ function Register() {
                 type="button"
                 id="button-addon2"
               >
-                {visiblePassword ? <FiEyeOff /> : <FiEye />}
+                {visiblePassword ? <FiEye /> : <FiEyeOff />}
               </button>
             </div>
             {message === "Senha deve conter pelo menos 6 caracteres" && (

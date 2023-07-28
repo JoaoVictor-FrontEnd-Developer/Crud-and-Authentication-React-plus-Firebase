@@ -154,7 +154,7 @@ function Login() {
                   type="button"
                   id="button-addon2"
                 >
-                  {visible ? <FiEyeOff /> : <FiEye />}
+                  {visible ? <FiEye /> : <FiEyeOff />}
                 </button>
               </div>
               {message === "Senha Incorreta" && (
