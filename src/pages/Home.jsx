@@ -133,7 +133,7 @@ function Home() {
               </button>
             </form>
             {message && (
-              <p className="w-75 py-2 text-center alert alert-danger mt-3">
+              <p className="form-message-error py-2 text-center alert alert-danger mt-3">
                 Preencha o campo corretamente
               </p>
             )}
