@@ -25,6 +25,12 @@
 .bg-illustration{
     max-width: 80%;
 }
+
+.btn-done:hover{
+    background-color: #198754;
+    color: #fff;
+}
+
 @media screen and (max-width: 992px){
     .form-add-task,
     .form-message-error{

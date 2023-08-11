@@ -155,7 +155,7 @@ function Home() {
                               <div className="d-flex w-100 justify-content-start align-items-center">
                                 <button
                                   onClick={() => doneItem(index)}
-                                  className={`d-flex justify-content-center align-items-center p-1 me-2 btn ${
+                                  className={`btn-done d-flex justify-content-center align-items-center p-1 me-2 btn ${
                                     task.done ? "btn-success" : ""
                                   }`}
                                 >
