@@ -53,8 +53,10 @@ function Home() {
 
     setTarefa("");
     // adicionando novo elemento no array de tarefas do banco
-    const user = await updateDoc(doc(db, "users", state.currentUser), {
-      tasks: arrayUnion({ name: tarefa, done: false }),
+    const docUser = await updateDoc(doc(db, "users", state.currentUser), {
+      tasks: [
+      { name: tarefa, done: false },
+      ...user.tasks,]
     });
   };
 
